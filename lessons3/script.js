@@ -39,9 +39,9 @@ console.log('Бюджет на день', budgetDay);
 // Конструкция условий
 if (budgetDay > 800) {
     console.log('Высокий уровень дохода');
-} else if (budgetDay > 300) {
+} else if (budgetDay > 300 && budgetDay <= 800) {
     console.log('Средний уровень дохода');
-} else if (budgetDay > 0) {
+} else if (budgetDay > 0 && budgetDay <= 300) {
     console.log('Низкий уровень дохода');
 } else if (budgetDay <= 0) {
     console.log('Что то пошло не так');

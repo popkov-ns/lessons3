@@ -29,4 +29,4 @@ let arr = ['Понедельник, Вторник, Среда, Четверг, 
 let ru = 0,
     en = 1;
 
-console.log(arr[1]);
+console.log(arr[en]);
